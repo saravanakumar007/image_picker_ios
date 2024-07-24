@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 import 'dart:async';
 
-import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
+import 'package:img_picker_platform_interface/img_picker_platform_interface.dart';
 
 import 'src/messages.g.dart';
 
