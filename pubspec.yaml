@@ -20,7 +20,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  img_picker_platform_interface: ^3.0.0
+  img_picker_platform_interface: 2.9.1
 
 dev_dependencies:
   flutter_test:
