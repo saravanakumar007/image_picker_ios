@@ -122,12 +122,6 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "flutter_plugin_android_lifecycle",
-      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///Users/saravanakumark/Desktop/Flutter/SDK/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -153,7 +147,7 @@
     },
     {
       "name": "img_picker_platform_interface",
-      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/img_picker_platform_interface-2.9.1",
+      "rootUri": "file:///Users/saravanakumark/.pub-cache/git/image_picker_platform_interface-1200e6fe915f9fbfd958307ec9467b55427444cd/",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -207,9 +201,9 @@
     },
     {
       "name": "pigeon",
-      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/pigeon-14.0.0",
+      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/pigeon-9.2.5",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "2.18"
     },
     {
       "name": "plugin_platform_interface",
@@ -296,13 +290,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "img_picker_ios",
+      "name": "image_picker_ios",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2024-07-24T14:51:53.800285Z",
+  "generated": "2024-07-24T19:26:10.814876Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }
