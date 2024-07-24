@@ -158,14 +158,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_plugin_android_lifecycle:
-    dependency: "direct main"
-    description:
-      name: flutter_plugin_android_lifecycle
-      sha256: b068ffc46f82a55844acfa4fdbb61fad72fa2aef0905548419d97f0f95c456da
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.17"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -199,10 +191,10 @@ packages:
     dependency: "direct main"
     description:
       name: img_picker_platform_interface
-      sha256: "37754092f6cc063a19b75cbd4657efc315e5ae4082ec5a50071a2c40fc256934"
+      sha256: b33367f332f1ad9f7174a4e02b8932376c15a79d5d3aef34cca139832558e2bd
       url: "https://pub.dev"
     source: hosted
-    version: "2.9.1"
+    version: "3.0.0"
   js:
     dependency: transitive
     description:
@@ -271,10 +263,10 @@ packages:
     dependency: "direct dev"
     description:
       name: pigeon
-      sha256: c897b1abb2fa1d8fdb61aca34216796160ca7d9e34fef360a733e2608191acd4
+      sha256: "6b270420d0808903f4c2d848aa96f8c12e6275b15989270f24e552939642212f"
       url: "https://pub.dev"
     source: hosted
-    version: "14.0.0"
+    version: "9.2.5"
   plugin_platform_interface:
     dependency: transitive
     description:

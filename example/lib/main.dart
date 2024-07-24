@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:image_picker_ios/image_picker_ios.dart';
-import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
+import 'package:img_picker_platform_interface/img_picker_platform_interface.dart';
 
 void main() {
+  // #enddocregion photo-picker-example
   runApp(const MyApp());
 }
 
@@ -30,16 +30,17 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   Future<void> uploadPhotos() async {
-    final List<XFile> photoList =
-        await ImagePickerIOS().getMultiImageWithOptions(
-      options: MultiImagePickerOptions(limit: 3),
-    );
+    final List<XFile> photoList = await ImagePickerPlatform.instance
+        .getMultiImageWithOptions(options: MultiImagePickerOptions(limit: 2));
     var s = 0;
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title!),
+      ),
       body: Center(
         child: FilledButton(
           onPressed: () {
