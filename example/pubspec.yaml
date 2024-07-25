@@ -10,8 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  img_picker_ios:
-    path: ../
+  img_picker_ios: ^1.0.1
   img_picker_platform_interface: ^3.0.0
   mime: ^1.0.4
   video_player: ^2.1.4
