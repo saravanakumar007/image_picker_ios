@@ -4,8 +4,8 @@
 
 #import "ImagePickerTestImages.h"
 
-@import image_picker_ios;
-@import image_picker_ios.Test;
+@import img_picker_ios;
+@import img_picker_ios.Test;
 @import XCTest;
 
 @interface MetaDataUtilTests : XCTestCase

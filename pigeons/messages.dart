@@ -8,11 +8,11 @@ import 'package:pigeon/pigeon.dart';
   dartOut: 'lib/src/messages.g.dart',
   dartTestOut: 'test/test_api.g.dart',
   objcHeaderOut:
-      'ios/image_picker_ios/Sources/image_picker_ios/include/image_picker_ios/messages.g.h',
-  objcSourceOut: 'ios/image_picker_ios/Sources/image_picker_ios/messages.g.m',
+      'ios/img_picker_ios/Sources/img_picker_ios/include/img_picker_ios/messages.g.h',
+  objcSourceOut: 'ios/img_picker_ios/Sources/img_picker_ios/messages.g.m',
   objcOptions: ObjcOptions(
     prefix: 'FLT',
-    headerIncludePath: './include/image_picker_ios/messages.g.h',
+    headerIncludePath: './include/img_picker_ios/messages.g.h',
   ),
   copyrightHeader: 'pigeons/copyright.txt',
 ))

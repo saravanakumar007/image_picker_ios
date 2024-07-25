@@ -138,7 +138,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
-  image_picker_ios:
+  img_picker_ios:
     dependency: "direct main"
     description:
       path: ".."
@@ -149,10 +149,10 @@ packages:
     dependency: "direct main"
     description:
       name: img_picker_platform_interface
-      sha256: "37754092f6cc063a19b75cbd4657efc315e5ae4082ec5a50071a2c40fc256934"
+      sha256: b33367f332f1ad9f7174a4e02b8932376c15a79d5d3aef34cca139832558e2bd
       url: "https://pub.dev"
     source: hosted
-    version: "2.9.1"
+    version: "3.0.0"
   integration_test:
     dependency: "direct dev"
     description: flutter

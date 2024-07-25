@@ -97,13 +97,13 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/image_picker_ios/image_picker_ios_privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/img_picker_ios/image_picker_ios_privacy.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/image_picker_ios/image_picker_ios_privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/img_picker_ios/image_picker_ios_privacy.bundle"
 fi
 if [[ "$CONFIGURATION" == "Profile" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/image_picker_ios/image_picker_ios_privacy.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/img_picker_ios/image_picker_ios_privacy.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

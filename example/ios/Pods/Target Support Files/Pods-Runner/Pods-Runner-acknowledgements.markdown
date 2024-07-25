@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## image_picker_ios
+## img_picker_ios
 
 image_picker
 

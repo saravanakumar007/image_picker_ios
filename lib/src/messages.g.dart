@@ -179,7 +179,7 @@ class ImagePickerApi {
   Future<String?> pickImage(SourceSpecification source, MaxSize maxSize,
       int? imageQuality, bool requestFullMetadata) async {
     const String __pigeon_channelName =
-        'dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickImage';
+        'dev.flutter.pigeon.img_picker_ios.ImagePickerApi.pickImage';
     final BasicMessageChannel<Object?> __pigeon_channel =
         BasicMessageChannel<Object?>(
       __pigeon_channelName,
@@ -205,7 +205,7 @@ class ImagePickerApi {
   Future<List<String?>> pickMultiImage(MaxSize maxSize, int? imageQuality,
       bool requestFullMetadata, int? limit) async {
     const String __pigeon_channelName =
-        'dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickMultiImage';
+        'dev.flutter.pigeon.img_picker_ios.ImagePickerApi.pickMultiImage';
     final BasicMessageChannel<Object?> __pigeon_channel =
         BasicMessageChannel<Object?>(
       __pigeon_channelName,
@@ -236,7 +236,7 @@ class ImagePickerApi {
   Future<String?> pickVideo(
       SourceSpecification source, int? maxDurationSeconds) async {
     const String __pigeon_channelName =
-        'dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickVideo';
+        'dev.flutter.pigeon.img_picker_ios.ImagePickerApi.pickVideo';
     final BasicMessageChannel<Object?> __pigeon_channel =
         BasicMessageChannel<Object?>(
       __pigeon_channelName,
@@ -262,7 +262,7 @@ class ImagePickerApi {
   Future<List<String?>> pickMedia(
       MediaSelectionOptions mediaSelectionOptions) async {
     const String __pigeon_channelName =
-        'dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickMedia';
+        'dev.flutter.pigeon.img_picker_ios.ImagePickerApi.pickMedia';
     final BasicMessageChannel<Object?> __pigeon_channel =
         BasicMessageChannel<Object?>(
       __pigeon_channelName,

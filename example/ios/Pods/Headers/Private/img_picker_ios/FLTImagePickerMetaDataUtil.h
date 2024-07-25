@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/img_picker_ios/ios/img_picker_ios/Sources/img_picker_ios/include/img_picker_ios/FLTImagePickerMetaDataUtil.h

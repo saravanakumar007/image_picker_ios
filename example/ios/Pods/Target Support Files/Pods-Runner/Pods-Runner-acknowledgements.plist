@@ -249,7 +249,7 @@ aFileChooser
 			<key>License</key>
 			<string>BSD</string>
 			<key>Title</key>
-			<string>image_picker_ios</string>
+			<string>img_picker_ios</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
