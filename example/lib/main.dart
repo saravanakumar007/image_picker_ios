@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:img_picker_platform_interface/img_picker_platform_interface.dart';
 
 void main() {
-  // #enddocregion photo-picker-example
   runApp(const MyApp());
 }
 
@@ -38,9 +37,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title!),
-      ),
       body: Center(
         child: FilledButton(
           onPressed: () {
